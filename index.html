@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Delicias de casa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #f28d66;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            color: #f28d66;
+        }
+        .content {
+            padding: 20px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+        .menu-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            width: 200px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .menu-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .menu-item h3 {
+            font-size: 1.4em;
+            margin: 10px 0;
+        }
+        .menu-item p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+        }
+        .contact-info div {
+            width: 30%;
+            text-align: center;
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Estilo del botón de WhatsApp */
+        .whatsapp-button {
+            background-color: #25d366;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none; /* Elimina el subrayado */
+            width: 250px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .whatsapp-button img {
+            width: 30px;
+            margin-right: 10px;
+        }
+        .whatsapp-button:hover {
+            background-color: #128C7E;
+        }
+        .whatsapp-button:active {
+            background-color: #075E54;
+        }
+    </style>
+</head>
+<body>
+
+  <!-- Encabezado -->
+    <header>
+        <h1>Delicias de casa</h1>
+        <p>De mi cocina a tu escritorio</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#menu">Menú</a>
+        <a href="#sobre-nosotros">Sobre mi</a>
+        <a href="#contacto">Pedidos</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="content">
+        <!-- Sección de menú -->
+        <section id="menu">
+            <h2>Menú</h2>
+            <div class="menu">
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/200x150" alt="Plato 1">
+                    <h3>Lunes</h3>
+                    <p>Delicioso plato con ingredientes frescos. $150</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/200x150" alt="Plato 2">
+                    <h3>Martes</h3>
+                    <p>Combinación perfecta de sabores. $200</p>
+                </div>
+                <div class="menu-item">
+                    <img src="https://via.placeholder.com/200x150" alt="Plato 3">
+                    <h3>Miercoles</h3>
+                    <p>Exquisito postre para finalizar tu comida. $100</p>
+                </div>
+		<div class="menu-item">
+                    <img src="https://via.placeholder.com/200x150" alt="Plato 3">
+                    <h3>Jueves</h3>
+                    <p>Exquisito postre para finalizar tu comida. $100</p>
+                </div>
+		<div class="menu-item">
+                    <img src="https://via.placeholder.com/200x150" alt="Plato 3">
+                    <h3>Viernes</h3>
+                    <p>Exquisito postre para finalizar tu comida. $100</p>
+                </div>
+            </div>
+        </section>
+
+       <!-- Sección sobre nosotros -->
+        <section id="sobre-nosotros">
+            <h2>Sobre Mi</h2>
+            <p>Comer un desayuno rico y saludable no habia sido tan facil y comodo, tu solo haces tu pedido, y te lo llevo hasta tu area de trabajo. Mi concepto de desayuno incluye ingredientes frescos, higiene, agilidad y sobre todo una sonrisa en cada entrega</p>
+        </section>
+
+        <!-- Sección de contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <div class="contact-info">
+                 <div>
+                   <h3>¿Cómo hago mi pedido?</h3>
+
+		  <p>puedes hacer tus pedidos de la forma que consideres mas comoda, puedes pedir por whatsapp y pagar al recibir tu desayuno, o bien puedes hacer una tranferencia bancaria</p>
+                </div>
+                <div>
+                    <h3>Transferencia</h3>
+                     <p><strong>Banco:</strong> Promerica</p>
+		     <p><strong>A nombre de:</strong> Luisa Fernanda Hernandez Caceres</p>
+            	     <p><strong>tipo:</strong> Ahorro</p>
+                     <p><strong>Cuenta:</strong> 123456789</p>
+            <p>No olvides enviar tu comprobante y espera por un delicioso desayuno</p>
+                </div>
+                <div>
+                     <h3>WhatsApp</h3>
+                    <!-- Botón de WhatsApp como enlace sin logotipo -->
+		    <p>¿prefieres hacer tu pedido via whastapp? aquí te dejo mi contacto para que pidas tu desayuno sin moverte de tu escritorio</p>
+                    <a href="https://wa.me/1234567890" class="whatsapp-button" target="_blank">
+                        ¡Haz tu pedido!
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+   <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Delicias de casa. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
